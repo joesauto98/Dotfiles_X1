@@ -1,0 +1,12 @@
+[user]
+	email = 39030788+joesauto98@users.noreply.github.com
+	name = joe p
+[core]
+	editor = code --wait
+	autocrlf = input
+[init]
+	defaultBranch = master
+[diff]
+	tool = vscode
+[difftool "code"]
+	cmd = "code --wait --diff  $LOCAL $REMOTE"
